@@ -32,6 +32,10 @@ project "lualib"
     {
         "src/lua.c",
         "src/onelua.c", -- gcc build
+        "src/ltests.h",
+        "src/ltests.c",
+        "src/testes/**.h",
+        "src/testes/**.c",
     }
 
     includedirs

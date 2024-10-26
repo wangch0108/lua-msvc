@@ -106,7 +106,6 @@
     <ClInclude Include="src\lstate.h" />
     <ClInclude Include="src\lstring.h" />
     <ClInclude Include="src\ltable.h" />
-    <ClInclude Include="src\ltests.h" />
     <ClInclude Include="src\ltm.h" />
     <ClInclude Include="src\lua.h" />
     <ClInclude Include="src\luaconf.h" />
@@ -143,17 +142,11 @@
     <ClCompile Include="src\lstrlib.c" />
     <ClCompile Include="src\ltable.c" />
     <ClCompile Include="src\ltablib.c" />
-    <ClCompile Include="src\ltests.c" />
     <ClCompile Include="src\ltm.c" />
     <ClCompile Include="src\lundump.c" />
     <ClCompile Include="src\lutf8lib.c" />
     <ClCompile Include="src\lvm.c" />
     <ClCompile Include="src\lzio.c" />
-    <ClCompile Include="src\testes\libs\lib1.c" />
-    <ClCompile Include="src\testes\libs\lib11.c" />
-    <ClCompile Include="src\testes\libs\lib2.c" />
-    <ClCompile Include="src\testes\libs\lib21.c" />
-    <ClCompile Include="src\testes\libs\lib22.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
